@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>AkmalR</title>
+	<!-- All CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+                <img src="assets/AR.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded">
+                <span class="fw-bold text-black">AkmalR.</span>
+            </a>
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="profil.html">Profil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<button class="login-btn" onclick="location.href='login.html'">LOG IN</button>
+			</div>
+		</div>
+	</nav>
+
+	<!-- carausel -->
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="assets/onic01.jpg">
+				<div class="carousel-caption">
+					<h5>ONIC E-sport</h5>
+					<p>Disini saya akan membahas tentang prestasi ONIC E-sport team MPL ID.</p>
+					<p><a class="btn btn-warning mt-3" href="#about">Learn More</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="assets/kage.jpg">
+				<div class="carousel-caption">
+					<h5>ONIC KAGE</h5>
+					<p>ONIC KAGE adalah tim yang paling ditakuti pada saat season 3.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="assets/s11.pg.jpg">
+				<div class="carousel-caption">
+					<h5>ONIC 4PEAT</h5>
+					<p>Team ini adalah tim penguasa MPL id dari S10-S13</p>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+	<!-- end carausel -->
+  
+  <!-- about section -->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/logoonic.png"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>ONIC E-sport</b><br><br>
+						<p>ONIC Esports adalah tim olahraga elektronik asal Indonesia yang didirikan dan dimiliki oleh Rob Clinton Kardinal pada tahun 2018. Sosok founder ONIC Esports ini merupakan seorang pebisnis dan juga sekaligus merupakan politikus di tanah air Indonesia.<br>
+
+							Sejak berdirinya, ONIC Esports dikelola oleh Justin Widjaja sebagai salah satu tim manajemen. Diawal berdirinya, Justin merekrut tim ONIC Esports dari berbagai daerah di Indonesia. Justin juga berperan dalam mencari sponsor-sponsor pada tim ONIC Esports.<br>
+							
+							Hingga saat ini, ONIC Esports telah mengantongi beberapa gelar di beberapa turnamen nasional maupun internasional.</p><a class="btn btn-warning" href="https://id.wikipedia.org/wiki/ONIC_Esports">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about section End -->
+
+	<!-- team kage-->
+	<section class="team section-padding" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Team</h2>
+						<p>Roaster ONIC KAGE</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/udil.jpg">
+							<h3 class="card-title py-2">Udil Surbakti</h3>
+							<p class="card-text">Nick : Udil <br> Role : MidLaner</p>
+							<p class="socials">
+							<a  href="https://www.instagram.com/udil.surbakti/">
+								<i class="bi bi-instagram text-dark mx-1"></i>
+							</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/antimage.jpg">
+							<h3 class="card-title py-2">Maxhil Leonardo</h3>
+							<p class="card-text">Nick : Antimage <br>  Role : SideLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/maxhill.antimage">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/drian.jpg">
+							<h3 class="card-title py-2">Drian Dlarsen</h3>
+							<p class="card-text">Nick : Drian <br>  Role : Roamer</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/driandlarsen">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/psycho.jpg">
+							<h3 class="card-title py-2">Teguh Saputra</h3>
+							<p class="card-text">Nick : Psycho <br>  Role : Roamer</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/teguh.pyscho">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/sasa.jpg">
+							<h3 class="card-title py-2">Lu Khai Bean</h3>
+							<p class="card-text">Nick : Sasaa <br>  Role : SideLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/bensasaaa">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- team kage end -->
+
+	<!-- jumbotron 1 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS3.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 3</b><br><br>
+						<p>Pada Season ini ONIC berhasil menjadi juara MPL ID Season 3 tanpa kalah satu match-pun
+							dan menjadi salahsatu tim perwakilan dari Indonesia di MSC 2019.</p>
+						<a class="btn btn-dark text-white" href="https://liquipedia.net/mobilelegends/MPL/Indonesia/Season_3">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 1 -->
+	
+	<!-- jumbotron 2 -->
+	<section class="s3 section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/msckage.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MSC 2019</b><br><br>
+						<p>Pada MSC Season ini ONIC berhasil menjadi juara dan tidak pernah kalah satu match-pun, 
+							dan dengan juaranya ONIC ini mereka adalah tim Indonesia pertama yang berhasil memenangkan kejuaraan MSC.</p>
+						<a class="btn btn-dark text-white" href="https://liquipedia.net/mobilelegends/MSC/2019">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 2 -->
+	
+	<!-- jumbotron 3 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/msckage.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>PIALA PRESIDEN 2019</b><br><br>
+						<p>Di tournament PILPRES kali ini ONIC kembali tak terkalahkan dan berhasil keluar sebagai juara.
+							Dengan Hattrick Tropy ini ONIC mendapatkan julukan sebagai "RAJA LANGIT".
+						</p>
+						<a class="btn btn-dark text-white" href="https://kincir.com/game/mobile-game/inilah-tim-tim-yang-pernah-keluar-sebagai-juara-piala-presiden-esports-t1pubzmbjwikc/">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 3 -->
+
+	<!-- team S8 -->
+	<section class="team section-padding" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Team</h2>
+						<p>Strating line-up ONIC S8</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/buts.jpg">
+							<h3 class="card-title py-2">Muhammad Satrya</h3>
+							<p class="card-text">Nick : Butsss <br> Role : ExpLaner</p>
+							<p class="socials">
+							<a  href="https://www.instagram.com/msatryas">
+								<i class="bi bi-instagram text-dark mx-1"></i>
+							</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/cw.jpg">
+							<h3 class="card-title py-2">Calvin Winata</h3>
+							<p class="card-text">Nick : CW <br>  Role : GoldLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/calvinwinataa">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/drian.jpg">
+							<h3 class="card-title py-2">Drian Dlarsen</h3>
+							<p class="card-text">Nick : Drian <br>  Role : MidLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/driandlarsen">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/sanz.jpg">
+							<h3 class="card-title py-2">Gilang</h3>
+							<p class="card-text">Nick : S A N Z <br>  Role : Junggler</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/sanz_gilang10">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/kiboy.jpg">
+							<h3 class="card-title py-2">Nicky Fernando</h3>
+							<p class="card-text">Nick : Kiboyyy <br>  Role : Roamer</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/nickyboyyy07">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- team S8 end -->
+
+	<!-- jumbotron 4 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS8.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 8</b><br><br>
+						<p>Setelah 4 musim puasa Tropy akhirnya tim ONIC E-sport berhasil membawa pulang piala MPL mereka yang ke dua,
+							dan mereka juga mendapatkan ticket untuk berlaga di M3  World Championship 2022. Namun mereka harus pulang pada posisi 12th
+							di tournament tersebut.
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 4 -->
+
+	<!-- team 4Peat starts -->
+	<section class="team section-padding" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Team</h2>
+						<p>Strating line-up ONIC S10-13</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/buts.jpg">
+							<h3 class="card-title py-2">Muhammad Satrya</h3>
+							<p class="card-text">Nick : Butsss <br> Role : ExpLaner</p>
+							<p class="socials">
+							<a  href="https://www.instagram.com/msatryas">
+								<i class="bi bi-instagram text-dark mx-1"></i>
+							</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/cw.jpg">
+							<h3 class="card-title py-2">Calvin Winata</h3>
+							<p class="card-text">Nick : CW <br>  Role : GoldLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/calvinwinataa">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/sanz.jpg">
+							<h3 class="card-title py-2">Gilang</h3>
+							<p class="card-text">Nick : S A N Z <br>  Role : MidLaner</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/sanz_gilang10">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/kiboy.jpg">
+							<h3 class="card-title py-2">Nicky Fernando</h3>
+							<p class="card-text">Nick : Kiboyyy <br>  Role : Roamer</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/nickyboyyy07">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="assets/kairi.jpg">
+							<h3 class="card-title py-2">Kairi Rayosdesol</h3>
+							<p class="card-text">Nick : Kairi <br>  Role : Junggler</p>
+							<p class="socials">
+								<a  href="https://www.instagram.com/kairirds">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- team 4Peat ends -->
+
+	<!-- jumbotron 5 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS10.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 10</b><br><br>
+						<p>Pada pagelaran MPL ID Season 10 ini ONIC mendatangkangkan Junggler muda berdarah dingin🥶🥶🥶 dari Filiphina bernama Kairi.
+							Di season ini ONIC berhasil menjadi juara MPL ID yang ke-10.
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 5 -->
+	
+	<!-- jumbotron 6 -->
+	<section class="s3 section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS11.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 11</b><br><br>
+						<p>Di MPL ID Season 11 ONIC kembali menjadi juara dengan menyapu bersih babak playoff tanpa kalah satu game-pun class.
+							Dan mereka mendapatkan ticket menuju MSC menjadi salahsatu perwakilan Indonesia di tournament tersebut.
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 6 -->
+	
+	<!-- jumbotron 7 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/mscchamp.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MSC 2023</b><br><br>
+						<p>Pada MSC kali ini ONIC berhasil menjadi juara, mereka mengalahkan tim-tim kuat dari region Filiphina yaitu Echo dan BlackList
+							dan mereka dinobatkan menjadi yang terkuat pada saat itu.
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 7 -->
+	
+	<!-- jumbotron 8 -->
+	<section class="s3 section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS12.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 12</b><br><br>
+						<p>Di MPL ID Season yang ke-12 ini ONIC kembali menjadi juara, mereka juga mendapatkan ticket menuju M5 tapi sayang mereka hanya
+							mampu menjadi runner-up setelah kalah dari tipis 4-3 dari tim region Philipina yaitu AP Bren.
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 8 -->
+
+	<!-- jumbotron 9 -->
+	<section class="s3 section-padding bg-warning">
+		<div class="container">
+		<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="assets/juaraS13.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2><b>MPL ID Season 13</b><br><br>
+						<p>Di MPL ID Season yang ke-13 ini ONIC masih mempertahankan gelar juara mereka dan mereka 
+							mendapatkan title "FOURPEAT CHAMPION".
+						</p>
+						<a class="btn btn-dark text-white" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end jumbtron 9 -->
+	
+	<!-- footer -->
+	<footer class="bg-dark text-white pt-5 pb-4">
+		<div class="container text-center text-md-left">
+		  <div class="row text-center text-md-left">
+			<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+			  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">About</h5>
+			  <p>Website ini dibuat untuk memenuhi tugas mata kuliah web pemprograman 1</p>
+			</div>
+	
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+			  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Tugas</h5>
+			  <p>
+				<a href="#" class="text-white" style="text-decoration: none;">Bootstrap</a>
+			  </p>
+			  <p>
+				<a href="#" class="text-white" style="text-decoration: none;">HTML</a>
+			  </p>
+			  <p>
+				<a href="#" class="text-white" style="text-decoration: none;">CSS</a>
+			  </p>
+			  <p>
+				<a href="#" class="text-white" style="text-decoration: none;">JavaScript</a>
+			  </p>
+			</div>
+	
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+			  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+			  <p>
+				<i class="fa fa-home mr-3"></i> Desa Curug Kec. Pekalongan Kab. Pekalongan
+			  </p>
+			  <p>
+				<i class="fa fa-envelope mr-3"></i> mhdrafi338@gmail.com
+			  </p>
+			  <p>
+				<a class="text-white" href="https://wa.me/+6285229703011">
+				  <i class="fab fa-whatsapp mr-3"></i> wa.me/+6285229703011
+				</a>
+			  </p>
+			  <p>
+				<a class="text-white" href="https://www.instagram.com/rapmalll">
+				  <i class="fab fa-instagram mr-3"></i> @rapmalll
+				</a>
+			  </p>
+			</div>
+	
+			<hr class="mb-1">
+			<div class="row align-items-center">
+			  <div class="text-align-center"> 
+				<p>&copy; 2024. <b>AkmalR.</b> All Rights Reserved.</p>
+			  </div>
+			</div>
+	<!-- footer end -->
+	
+	<!-- All Js -->
+	<script src="js/bootstrap.bundle.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">	</script>
+	
+</body>
+</html>
